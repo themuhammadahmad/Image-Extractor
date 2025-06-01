@@ -1,0 +1,26 @@
+Hey Viewers and readers.
+
+Image-Extracter, in 5/21/2024
+This is one of the extensions I had developed in the beginning of my chrome extension development journey. 
+
+Features:
+1. It extracts all the images from the web page from the img tags and even from the background-image property as well. 
+2. Every image has a button to download the image at the right -bottom corner.
+2. It extracs all the cookies of the website. User can copy any of the cookie from the list just by clicking on the cookie.
+
+List of permissions I used in manifest.json:
+
+1. scripting
+   it is used to execute any kind of script in the active tab.
+2. storage
+   storage API is used to access local and sync storage. You can set or get or remove anything from storage.
+3. cookies
+   With this API we can get the cookies of any webpage url, saved in your browser 
+4. downloads
+   With this API we can download anything files, images etc.
+5. activeTab
+   With this API we can get the info of active tab(active is tab which is currently in view).
+
+   
+
+                  
